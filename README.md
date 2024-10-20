@@ -29,20 +29,6 @@ To get started with the AI-Powered Mock Interview Platform, follow these steps:
 
 5. Access the Application: Open your browser and go to http://localhost:3000 to access the application.
 
-## Using Docker
-- Docker installed on your machine
-- A Docker Hub account
-  
-6. Pull the Docker Image:
-   ```bash
-   docker pull mohamedamaan319/ai-mock-interview
-
-7. Run the Docker Container in your local machine:
-   ```bash
-   docker run -d -p 3000:3000 your-docker-username/ai-mock-interview
-
-  This command will start the container and map port 3000 of the container to port 3000 on your local machine. You can now access the application at http://localhost:3000
-
 ## Technologies Used
 - Next.js: A React framework for building server-side rendered and static web applications.
 - Gemini API: Provides an interface for accessing the AI interview functionalities.
